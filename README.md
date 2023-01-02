@@ -402,13 +402,9 @@ print('digite a localização do ponto X1:')
 x1 = float(input())
 print('digite a localização do ponto Y1:')
 Y1 = float(input())
-print('digite a localização do ponto X2:')
-X2 = float(input())
-print('digite a localização do ponto Y2:')
-Y2 = float(input())
-res = ((X2 - x1) ** 2) + ((Y2 - Y1) ** 2)
-res_f = res ** 0.5
-print(f'a distância da origem é: {res_f}')
+res = int((((0 - x1) ** 2) + ((0 - Y1) ** 2)) ** 0.5)
+print(f'a distância da origem é: {res}')
+
 
 # 52
 print('quanto cada amigo investiu:')
